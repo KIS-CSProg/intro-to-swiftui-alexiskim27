@@ -16,6 +16,10 @@ struct ContentView: View {
             Text("Who's There?")
                 .padding()
                 .background(Color.teal, in: RoundedRectangle(cornerRadius: 8))
+            Text("This is the tutorial!")
+                .foregroundStyle(Color.white)
+                .padding()
+                .background(Color.brown, in: RoundedRectangle(cornerRadius: 8))
         }
         .padding()
     }
